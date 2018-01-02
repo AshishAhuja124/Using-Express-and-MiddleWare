@@ -1,9 +1,9 @@
-var fs=require('fs');
-var express = require('express');  //Express module
-var app = express();               
+let fs=require('fs');
+let express = require('express');  //Express module
+let app = express();               
 let bodyParser = require('body-parser');     //To parse the file in the browser
-var prompt=require('prompt');
-var shuffle = require('shuffle-array');
+let prompt=require('prompt');
+let shuffle = require('shuffle-array');
 var range=require('range');
 var array=require('node-array');
 var readline = require('readline');
